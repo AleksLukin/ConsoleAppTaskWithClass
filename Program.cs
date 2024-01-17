@@ -35,7 +35,13 @@ namespace ConsoleAppTaskWithClass
                 }
                 if (resultNumber == 2)
                 {
-
+                    History historyOne = new History(1945, " - ВОВ");
+                    History historyTwo = new History(1812, " - ОВ");
+                    History historyThird = new History(1861, " - Отмена крепостного права");
+                    History historyFour = new History(1917, " - Великая октябрьская революция"); 
+                    History historyFive = new History(1961, " - Полет в космос");
+                    History historySix = new History(1812, " - ОВ"); 
+                    History historySeven = new History(1945, " - ВОВ");                    
                 }
                 if (resultNumber == 3)
                 {
