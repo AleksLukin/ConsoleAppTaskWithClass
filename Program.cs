@@ -45,7 +45,22 @@ namespace ConsoleAppTaskWithClass
                 }
                 if (resultNumber == 3)
                 {
-
+                    School learnerOne= new School();
+                    learnerOne.List("Lukin", 11, "February",1983);
+                    School learnerTwo = new School();
+                    learnerTwo.List("Petrov", 06, "July", 1983);
+                    School learnerThird = new School();
+                    learnerThird.List("Sidorov", 17, "May", 1982);
+                    School learnerFour = new School();
+                    learnerFour.List("Rodionova", 06, "May", 1988);
+                    School learnerFive = new School();
+                    learnerFive.List("Dryagina", 04, "February", 1990);
+                    School learnerSix = new School();
+                    learnerSix.List("Parshakova", 11, "September",1986);
+                    School learnerSeven = new School();
+                    learnerSeven.List("Nikonova",17, "October",1986);
+                    School learnerEight = new School();
+                    learnerEight.List("Alueva", 07, "July", 1983);
                 }
                 if (resultNumber == 4)
                 {
